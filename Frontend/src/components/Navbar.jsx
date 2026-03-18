@@ -43,23 +43,23 @@ function Navbar() {
         <a href="/">Home</a>
       </li>
       <li>
-        <a href="/course">Course</a>
+        <a href="/course">Books</a>
       </li>
       <li>
         <a>Contact</a>
       </li>
       <li>
-        <a>About</a>
+        <a>Donate</a>
       </li>
     </>
   );
   return (
     <>
       <div
-        className={` max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 
+        className={` max-w-screen-2xl container mx-auto md:px-20 px-4 bg-[#f4f1e8] dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 
             ${
               sticky
-                ? "sticky-navbar shadow-md bg-base-200 dark:bg-slate-700 dark:text-white duration-300 transition-all ease-in-out"
+                ? "sticky-navbar shadow-md bg-[#f4f1e8] dark:bg-slate-700 dark:text-white duration-300 transition-all ease-in-out"
                 : ""
             }
             `}
@@ -89,12 +89,12 @@ function Navbar() {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#f4f1e8] rounded-box w-52"
               >
                 {navItems}
               </ul>
             </div>
-            <a className=" text-2xl font-bold cursor-pointer">bookStore</a>
+            <a className=" text-2xl font-bold cursor-pointer">BookStore</a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
@@ -104,7 +104,7 @@ function Navbar() {
               <label className=" px-3 py-2 border rounded-md flex items-center gap-2">
                 <input
                   type="text"
-                  className="grow outline-none rounded-md px-1 dark:bg-slate-900 dark:text-white"
+                  className="grow outline-none rounded-md px-1 bg-[#f4f1e8] dark:bg-slate-900 dark:text-white"
                   placeholder="Search"
                 />
                 <svg

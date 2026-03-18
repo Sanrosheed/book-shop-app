@@ -23,49 +23,28 @@ function Freebook() {
     getBook();
   }, []);
 
-  var settings = {
+  const settings = {
     dots: true,
-    infinite: false,
-    speed: 500,
+    infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 3,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
   };
+
   return (
     <>
       <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div>
-          <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+          <h1 className="font-semibold text-xl pb-2">
+            Free Books Offered to You
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
+            We provide a variety of free books, from self-development to
+            finance, because growth should be accessible to all. Turn the page,
+            something amazing awaits. Read bold, Live bigger.
           </p>
         </div>
 
