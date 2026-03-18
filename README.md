@@ -31,7 +31,7 @@ A simple full-stack web application that allows users to get Ebooks and display 
 ## Installation & Setup
 
 ### 1. Clone the repository
-git clone https://
+git clone https://github.com/Sanrosheed/book-shop-app.git
 
 ### 2. Install dependencies
 
