@@ -2,6 +2,10 @@
 
 A simple full-stack web application that allows users to get Ebooks and display their books. Built with React, Tailwind CSS, Node.js, Express, and MongoDB.
 
+## Live Demo
+Frontend: https://book-shop-beryl-three.vercel.app/  
+Backend API: https://backend-nu-six-49.vercel.app/book
+
 ## Features
 - Can view all books from the database
 - Add new books via a validated form
