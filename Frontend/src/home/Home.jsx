@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/NavBar";
+import Navbar from "../components/Nav";
 import Banner from "../components/Banner";
 import Freebook from "../components/Freebook";
 import Footer from "../components/Footer";
