@@ -21,7 +21,7 @@ function Signup() {
       password: data.password,
     };
     await axios
-      .post("https://backend-nu-six-49.vercel.app/signup", userInfo)
+      .post("https://book-shop-app-s7e2.onrender.com/signup", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {

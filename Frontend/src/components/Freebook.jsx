@@ -15,7 +15,7 @@ function Freebook() {
     const getBook = async () => {
       try {
         const res = await axios.get(
-          "https://backend-nu-six-49.vercel.app/book",
+          "https://book-shop-app-s7e2.onrender.com/book",
         );
 
         const data = res.data.filter((data) => data.category === "Free");

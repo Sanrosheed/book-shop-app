@@ -32,7 +32,7 @@ function Addbook() {
 
     try {
       const response = await fetch(
-        "https://backend-nu-six-49.vercel.app/book",
+        "https://book-shop-app-s7e2.onrender.com/book",
         {
           method: "POST",
           body: formDataToSend,
@@ -87,13 +87,13 @@ function Addbook() {
 
           {/* Title */}
           <div className="mt-4 space-y-2">
-            <h1>Title</h1>
+            <h1>Category</h1>
             <input
               type="text"
               name="title"
               value={formData.title}
               onChange={handleChange}
-              placeholder="Enter title"
+              placeholder="Enter category"
               className="w-80 px-3 py-1 border rounded-md outline-none"
               required
             />
@@ -101,13 +101,13 @@ function Addbook() {
 
           {/* Category */}
           <div className="mt-4 space-y-2">
-            <h1>Category</h1>
+            <h1>Price</h1>
             <input
               type="text"
               name="category"
               value={formData.category}
               onChange={handleChange}
-              placeholder="Enter category"
+              placeholder="Enter price"
               className="w-80 px-3 py-1 border rounded-md outline-none"
               required
             />
