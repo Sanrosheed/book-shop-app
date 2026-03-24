@@ -46,7 +46,7 @@ function Navbar() {
         <a href="/course">Books</a>
       </li>
       <li>
-        <a>Donate</a>
+        <a href="/donate">Donate</a>
       </li>
       <li>
         <a>Contact</a>
