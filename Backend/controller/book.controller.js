@@ -16,9 +16,9 @@ export const createBook = async (req, res) => {
   try {
     const { name, title, category } = req.body;
 
-    if (!name || !title || !category || !req.file) {
-      return res.status(400).json({ message: "All fields are required" });
-    }
+    // if (!name || !title || !category || !req.file) {
+    //   return res.status(400).json({ message: "All fields are required" });
+    // }
 
     const streamUpload = () =>
       new Promise((resolve, reject) => {

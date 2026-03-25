@@ -20,7 +20,10 @@ function App() {
             element={authUser ? <Courses /> : <Navigate to="/signup" />}
           />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/donate" element={<Donate />} />
+          <Route
+            path="/donate"
+            element={authUser ? <Donate /> : <Navigate to="/signup" />}
+          />
         </Routes>
         <Toaster />
       </div>
